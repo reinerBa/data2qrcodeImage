@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data to QR app</title>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div id="app"><h1>Send data as base64 after the url #</h1></div>
+    <button id="download" hidden>Download</button>
+    <button id="print" hidden>Print</button>
+    
+    <div id="msg">
+      <div id="example">
+        Like this <strong>example</strong>    
+        <br/><br/>
+        https://this-url/#BASE64
+      </div>
+    </div>
+    
+    <div id="qrcode"></div>
+    <script src="/main.js"></script>
+    </body>
+</html>
